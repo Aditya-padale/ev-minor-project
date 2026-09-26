@@ -1,0 +1,26 @@
+{
+  "best_model": "RandomForest",
+  "results": {
+    "RandomForest": {
+      "test_mae_minutes": 10.91,
+      "test_rmse_minutes": 30.35,
+      "test_r2": 0.9844,
+      "cv5_mae_minutes": 11.89,
+      "train_time_sec": 2.53
+    },
+    "GradientBoosting": {
+      "test_mae_minutes": 14.38,
+      "test_rmse_minutes": 26.79,
+      "test_r2": 0.9879,
+      "cv5_mae_minutes": 15.4,
+      "train_time_sec": 4.58
+    },
+    "Ridge": {
+      "test_mae_minutes": 111.4,
+      "test_rmse_minutes": 168.03,
+      "test_r2": 0.5231,
+      "cv5_mae_minutes": 118.53,
+      "train_time_sec": 0.08
+    }
+  }
+}

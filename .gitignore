@@ -1,0 +1,33 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Local model and notebook artifacts
+*.pkl
+*.joblib
+*.ipynb_checkpoints/
+
+# Coverage and build output
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
